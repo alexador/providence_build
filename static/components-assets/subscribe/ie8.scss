@@ -1,6 +1,6 @@
-.get-it{
-  &__form{
-    input{
+.subscribe{
+  &__form-wrapper{
+    input {
       @media(max-width: $screen-sm-max){
         max-width: 90%;
         padding-left: 10px;
