@@ -1,8 +1,13 @@
 .get-it{
   &__form{
     input{
+      width: 502px;
+      max-width: 100%;
+      padding-right: 176px;
       @media(max-width: $screen-sm-max){
-        padding-right: 0;
+        max-width: 90%;
+        padding-left: 10px;
+        padding-right: 10px;
       }
     }
   }
